@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Diagnóstico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Test de Diagnóstico de Ludopatía</h2>
+        <form id="testForm" action="/evaluarDiagnostico" method="POST">
+            <label>1. ¿Juegas más de lo que planeabas?</label><br>
+            <input type="radio" name="pregunta1" value="si" required> Sí
+            <input type="radio" name="pregunta1" value="no"> No<br><br>
+
+            <label>2. ¿Has sentido la necesidad de apostar más dinero?</label><br>
+            <input type="radio" name="pregunta2" value="si" required> Sí
+            <input type="radio" name="pregunta2" value="no"> No<br><br>
+
+            <label>3. ¿Has mentido sobre tus hábitos de juego?</label><br>
+            <input type="radio" name="pregunta3" value="si" required> Sí
+            <input type="radio" name="pregunta3" value="no"> No<br><br>
+
+            <label>4. ¿Has intentado reducir o detener el juego sin éxito?</label><br>
+            <input type="radio" name="pregunta4" value="si" required> Sí
+            <input type="radio" name="pregunta4" value="no"> No<br><br>
+
+            <label>5. ¿Sientes que el juego afecta tus relaciones personales?</label><br>
+            <input type="radio" name="pregunta5" value="si" required> Sí
+            <input type="radio" name="pregunta5" value="no"> No<br><br>
+
+            <button type="submit">Enviar Test</button>
+        </form>
+    </div>
+</body>
+</html>

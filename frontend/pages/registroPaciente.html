@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Paciente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro de Paciente</h2>
+        <form id="registroPacienteForm" action="/registrarPaciente" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" required><br><br>
+
+            <label for="fecha_diagnostico">Fecha de Diagnóstico:</label>
+            <input type="date" id="fecha_diagnostico" name="fecha_diagnostico" required><br><br>
+
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>
