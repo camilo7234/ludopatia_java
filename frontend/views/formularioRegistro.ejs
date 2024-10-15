@@ -1,0 +1,26 @@
+<!-- frontend/views/formularioRegistro.ejs -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Paciente</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Asegúrate de que la ruta CSS sea correcta -->
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Paciente</h1>
+        <form id="registerForm">
+            <input type="text" id="nombres" placeholder="Nombres" required>
+            <input type="text" id="apellidos" placeholder="Apellidos" required>
+            <input type="text" id="cedula" placeholder="Cédula" required>
+            <input type="tel" id="telefono" placeholder="Teléfono" required>
+            <input type="text" id="direccion" placeholder="Dirección" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="contrasena" placeholder="Contraseña" required>
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+    <script src="/js/register.js"></script> <!-- Asegúrate de que la ruta JS sea correcta -->
+</body>
+</html>
